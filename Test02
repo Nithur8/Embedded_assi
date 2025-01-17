@@ -119,8 +119,8 @@ int main(void)
 	  	  adcValue = HAL_ADC_GetValue(&hadc1);
 	  	  read = HAL_ADC_GetValue(&hadc1);
 	  	  adcValue = (adcValue*3.38f*(R1+R2))/(4095.0f*R2);
-	  	  sprintf(adcValueStr, "%1.1f", adcValue);
-	  	  sprintf(readStr, "%1.1u", read);
+	  	  sprintf(adcValueStr, "%2.2f", adcValue);
+	  	  sprintf(readStr, "%2.2u", read);
 	  	  HD44780_SetCursor(7,0);
 	  	  HD44780_PrintStr(readStr);
 	  	  HD44780_SetCursor(0, 1);
