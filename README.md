@@ -24,9 +24,6 @@ Demo: ![Demo GIF](https://github.com/user-attachments/assets/61e199e1-2385-4c09-
 - [Usage](#usage)
 - [Troubleshooting](#troubleshooting)
 - [FAQ](#faq)
-- [Contributing](#contributing)
-- [License](#license)
-
 ---
 
 ## About
@@ -150,29 +147,3 @@ A: The shunt provides a low-voltage proportional to current; the amplifier bring
 
 ---
 
-## Contributing
-Contributions welcome! Suggested improvements:
-- Add PCB design files (EAGLE / KiCad)
-- Add example firmware for different STM32 variants
-- Add unit tests/CI for conversion functions
-
-Please open issues or PRs.
-
----
-
-## License
-Specify your license here (e.g., MIT). If you want, tell me which license to add and I will include the badge and LICENSE file.
-
----
-
-## Credits
-- Design & development: Your name / contributors
-- Images: project photos and schematic assets
-
----
-
-If you'd like, I can now:
-- Commit this README to the repo (confirm branch: `main`) and push it, or
-- Create a PR instead so you can review changes before merging.
-
-Tell me which you prefer and I’ll proceed.
